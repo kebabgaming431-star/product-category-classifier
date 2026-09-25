@@ -1,0 +1,33 @@
+{
+  "quality": {
+    "raw_rows": 35311,
+    "missing_by_column": {
+      "product ID": 0,
+      "Product Title": 172,
+      "Merchant ID": 0,
+      "Category Label": 44,
+      "_Product Code": 95,
+      "Number_of_Views": 14,
+      "Merchant Rating": 170,
+      "Listing Date": 59
+    },
+    "missing_or_empty_required": 215,
+    "conflicting_titles": 2,
+    "conflicting_rows_removed": 4,
+    "duplicates_removed": 4270,
+    "clean_rows": 30822
+  },
+  "split": {
+    "train": 18492,
+    "validation": 6165,
+    "test": 6165
+  },
+  "winner": "char_svc",
+  "test_accuracy": 0.9899432278994322,
+  "test_macro_f1": 0.9901486120610345,
+  "majority_baseline": 0.15604217356042174,
+  "source_sha256": "d62edb6a0c22dd8a8e992ee04f0f3e78ea9be1c74d9e9832f696f92e5810caa4",
+  "python": "3.12.14",
+  "sklearn": "1.8.0",
+  "note": "Test scores belong to model fit on development 80%; delivered model refit on all clean data."
+}
